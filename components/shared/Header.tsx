@@ -14,6 +14,7 @@ const Header = () => {
               width={80}
               height={100}
               alt="Aru Event"
+              unoptimized
               />
               <h2>Aru Event</h2>
           </Link>
