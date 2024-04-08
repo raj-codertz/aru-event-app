@@ -1,5 +1,4 @@
-import mongoose, { Schema, model, models } from "mongoose";
-import { unique } from "next/dist/build/utils";
+import { Schema, model, models } from "mongoose";
 
 const userSchema = new Schema({
     clerkId: {type: String, required: true, unique: true},
@@ -11,3 +10,5 @@ const userSchema = new Schema({
 })
 
 const User = models.User || model('User', userSchema)
+
+export default User
