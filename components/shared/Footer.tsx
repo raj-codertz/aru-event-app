@@ -11,6 +11,7 @@ const Footer = () => {
             alt='logo'
             width={58}
             height={28}
+            unoptimized
           />
         </Link>
         <p>2024 ARU event. All Rights Reserved</p>
