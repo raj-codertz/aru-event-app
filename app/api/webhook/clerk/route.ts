@@ -65,6 +65,7 @@ export async function POST(req: Request) {
         lastName: last_name,
         photo: image_url
     }
+    console.log(user)
 
     const newUser = await createUser(user)
 
@@ -75,6 +76,7 @@ export async function POST(req: Request) {
         }
       })
     }
+    
     return NextResponse.json({ message: 'OK', user: newUser})
   }
 
