@@ -10,14 +10,14 @@ const Header = () => {
     <header className="w-full border-b">
       <div className="wrapper flex items-center justify-between">
           <Link href='/' className="w-36 flex flex-row items-center">
-              <Image src='/assets/images/Calendar.gif'
-              width={80}
-              height={100}
+              <Image src='/assets/images/logo.jpg'
+              width={50}
+              height={40}
               alt="Aru Event"
               unoptimized
               />
-              <h2>Aru Event</h2>
           </Link>
+          {/* <h2>Aru event</h2> */}
 
           {/* shows in large devices */}
           <SignedIn>
