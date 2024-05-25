@@ -9,10 +9,10 @@ export default function Home() {
         <div className="wrapper grid grid-cols-1 gap-5 md:grid-cols-2 2xl:gap-0">
           <div className="flex flex-col justify-center gap-8">
             <h1 className="h1-bold">
-            Host, Connect, Celebrate: Your Events, Our Platform!
+            Your One-Stop Solution for Seamless Event Management
             </h1>
             <p>
-              Book and Learn helpful tips from 3,100+ mentors in world-class companies with our global community
+            Effortlessly plan and manage events at ARU with our intuitive platform, trusted by our university community.
             </p>
             <Button className="button w-full sm:w-fit" asChild size='lg'>
               <Link href='#events'>
